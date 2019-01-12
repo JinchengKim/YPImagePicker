@@ -95,8 +95,8 @@ class YPCameraView: UIView, UIGestureRecognizerDelegate {
         flipButton.setImage(YPConfig.icons.loopIcon, for: .normal)
         shotButton.setImage(YPConfig.icons.capturePhotoImage, for: .normal)
         shotButton.setImage(YPConfig.icons.captureHighLightPhotoImage, for: .focused)
-//        shotButton.setImage(YPConfig.icons.captureHighLightPhotoImage, for: .highlighted)
-//        shotButton.setImage(YPConfig.icons.captureHighLightPhotoImage, for: .selected)
+        shotButton.setImage(YPConfig.icons.captureHighLightPhotoImage, for: .highlighted)
+        shotButton.setImage(YPConfig.icons.captureHighLightPhotoImage, for: .selected)
         
     }
 }

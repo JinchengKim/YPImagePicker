@@ -266,10 +266,10 @@ public class YPPickerVC: YPBottomPager, YPBottomPagerDelegate {
     
     func updateUI() {
         // Update Nav Bar state.
-        navigationItem.leftBarButtonItem = UIBarButtonItem(title: YPConfig.wordings.cancel,
-                                                           style: .plain,
-                                                           target: self,
-                                                           action: #selector(close))
+//        navigationItem.leftBarButtonItem = UIBarButtonItem(title: YPConfig.wordings.cancel,
+//                                                           style: .plain,
+//                                                           target: self,
+//                                                           action: #selector(close))
         
         switch mode {
         case .library:

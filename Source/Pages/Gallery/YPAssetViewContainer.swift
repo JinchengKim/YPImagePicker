@@ -68,11 +68,11 @@ class YPAssetViewContainer: UIView {
         
         if !onlySquare {
             // Crop Button
-            squareCropButton.setImage(YPConfig.icons.cropIcon, for: .normal)
-            sv(squareCropButton)
-            squareCropButton.size(42)
-            |-15-squareCropButton
-            squareCropButton.Bottom == zoomableView!.Bottom - 15
+//            squareCropButton.setImage(YPConfig.icons.cropIcon, for: .normal)
+//            sv(squareCropButton)
+//            squareCropButton.size(42)
+//            |-15-squareCropButton
+//            squareCropButton.Bottom == zoomableView!.Bottom - 15
         }
         
         // Multiple selection button
